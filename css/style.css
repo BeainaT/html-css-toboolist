@@ -5,9 +5,16 @@
     max-width: 1440px; 
 }
 
+body {
+    background-color: #f6f8f9;
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     background-color: white;
+    padding: 20px;
 }
+
 
 #logo, h1 {
     vertical-align: middle;
@@ -16,3 +23,34 @@ h1 {
     display: inline-block;
 }
 
+
+.container {
+    width: 800px;
+    background-color: white;
+    margin: 20px auto;
+    border-bottom: 1px solid #f6f8f9;
+}
+
+.submit {
+    padding: 10px 0 5px 30px;
+    border-bottom: 1px solid #f6f8f9;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+
+.task {
+    background-color: #47adf1;
+    color: white;
+    border: 1px solid #47adf1;
+}
+
+.section {
+    background-color: white;
+    color: #c5cbd0;
+    border: 1px solid #c5cbd0;
+}
