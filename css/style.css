@@ -28,7 +28,6 @@ h1 {
     width: 800px;
     background-color: white;
     margin: 20px auto;
-    border-bottom: 1px solid #f6f8f9;
 }
 
 .submit {
@@ -36,7 +35,7 @@ h1 {
     border-bottom: 1px solid #f6f8f9;
 }
 
-.button {
+button.button {
     display: inline-block;
     padding: 5px;
     border-radius: 5px;
@@ -53,4 +52,46 @@ h1 {
     background-color: white;
     color: #c5cbd0;
     border: 1px solid #c5cbd0;
+}
+
+.tasks {
+    padding-left: 30px;
+}
+
+h3 {
+    padding-top: 30px;
+}
+
+.editorial {
+   
+    background-color: #45abea;
+}
+
+.done {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+
+}
+
+.circle {
+    display: inline-block;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 50%;
+}
+
+.flag {
+    border: 1px solid #64c0a9;
+    color: #64c0a9;
+}
+
+.cross {
+    border: 1px solid #ea4237;
+    color: #ea4237;
 }
